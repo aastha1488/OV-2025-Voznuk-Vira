@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="uk">
-     <meta charset="UTF-8">
+    
     <head>
+         <meta charset="UTF-8">
         <title>Форма для збереження інфориації про викладача</title>
     </head>
-       <body bgcolor="#DCDCDC" >
+
+       <body>
             <h2> Форма</h2> 
             <form>
                   <abbr title="Прізвице Ім'я Поботькові">ПІБ</abbr>
                     <input type="text" name="fullname" id="fullname" required>
                     <p>Cтaть <br> 
-                    <select name="gander" id="gander" required>
+                    <select name="gender" id="gender" required>
                         <option value =""> Вибирайте </option>
                         <option value = "male"> Чоловіча </option>
                         <option value ="female">Жіноча</option>
@@ -23,7 +25,7 @@
                     <br>Пошта<br>
                     <input type="email" name="email" id="email" required><br>
                     <br>Телефон <br>
-                    <input type="tel" name="phine" id="phine" required> <br>
+                    <input type="tel" name="phone" id="phine" required> <br>
                     <br>Бажаний колір <br>
                     <input type="color" name="bgcolor" id="bgcolor"><br>
                     <br>Країна<br>
@@ -34,5 +36,8 @@
                 </p>
                     <textarea name="comment" id="comment" rows="1" cols="22"></textarea>
                     <p><input type="submit" value="Надіслати"></p>
+            </form>
+            
         </body>
+
 </html>
